@@ -48,7 +48,8 @@ body * {
   /*o margin server para alinhar horizontal*/
   /*não colocamos altura em caixas, pois elas devem seguir a altura de seus elemento*/
   /*em elementos display:inline eu não consigo aplicar margin*/
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
